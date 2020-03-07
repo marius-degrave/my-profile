@@ -1,0 +1,85 @@
+body{
+	font-family: 'Satisfy', serif;
+	color: black;
+	font-size: 20px;
+	background-color: black;
+}
+	
+
+h1{
+	font-family: 'Satisfy', serif;
+	font-weight: bold;
+	font-size: 60px;
+}
+
+h2{
+	font-family: 'Caladea', cursive;
+	background-color: white;
+	color: black;
+	font-size: 40px;
+	font-weight: medium;
+	text-align: center;
+}
+
+ul{
+	text-align: initial;
+}
+div{
+	border-radius: 4px;
+	background-color: black;
+}
+p{
+	font-family: 'Caladea', cursive
+}
+
+li{
+	display: inline;
+}
+
+a{
+	color: black;
+}
+
+.container{
+	width: 800px;
+	margin: 30px auto;
+}
+
+.card-white{
+	background-color: white;
+	padding: 40px auto;
+	border: 1px solid black;
+	border-radius: 4px;
+	margin:20px 0px;
+	text-align: center;
+}
+
+#img-rectangle{
+	border-radius: 15%;
+	width: 250px;
+}
+
+.l-inline{
+	list-style: none; 
+	padding-left: 0px; 
+	display: inline;
+	padding: 30px;
+	margin-left: 100px;
+	font-size: 40px;
+}
+
+
+@media(max-width: 760px){
+	.container{
+		width: 400px;
+		margin: 20px auto;
+	}
+}
+
+@media(max-width: 500px){
+	.container{
+		width: 400px;
+		margin: 0px auto
+	}
+}
+
